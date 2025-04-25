@@ -8,7 +8,7 @@ import Layout from "../components/pages/layout";
 import { BasicModal as Model } from "../components/pages/model";
 import SignIn from "../components/pages/SignIn";
 import SignUp from "../components/pages/SignUp";
-import PasswordSetup from "../components/pages/passwordSetup";
+import PasswordSetup from "../components/pages/PasswordSetup";
 import ToDo from "../components/pages/ToDo";
 import ForgotPassword from "../components/pages/ForgotPassword";
 import ResetPassword from "../components/pages/ResetPassword";
