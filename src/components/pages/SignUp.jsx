@@ -76,14 +76,14 @@ const [otp, setOtp] = useState("")
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center gap-4 min-h-screen text-sm">
+      <div className="flex flex-col justify-center items-center gap-4 min-h-screen text-sm ">
         <div className="w-20 h-20">
           <img src={logo} alt="logo" className="w-full h-full object-cover border rounded-full" />
         </div>
 
         <Formik {...formikProps}>
           {({ values }) => (
-            <Form className="flex flex-col w-1/4 gap-3 px-6 py-4 border border-gray-400 rounded-md justify-center">
+            <Form className="flex flex-col w-full gap-3 px-6 py-4 border border-gray-400 rounded-md justify-center  max-w-sm mx-auto">
               <h1 className="text-2xl font-bold">Create a new account</h1>
 
               {formFields.map((field, index) => (
@@ -135,4 +135,5 @@ const [otp, setOtp] = useState("")
 };
 
 export default SignUp;
+
 
