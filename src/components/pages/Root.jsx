@@ -4,7 +4,7 @@ import { routes } from "../../Router/Route";
 import { ROUTE_PATH } from "../../Router/RoutePath";
 import Home from "./Home";
 
-export const Root = () => {
+ const Root = () => {
   return (
     <BrowserRouter>
       <Routes>
@@ -21,3 +21,4 @@ export const Root = () => {
   );
 };
 
+export default Root;
