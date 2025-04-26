@@ -106,7 +106,7 @@ const navigate = useNavigate()
           <img src={logo} alt="logo" className="w-full h-full object-cover border rounded-full"/>
           </div>
 <Formik {...formikProps}>
-        <Form className="flex flex-col w-1/4  gap-3 p-10 border border-gray-400 rounded-md">
+        <Form className="flex flex-col w-full  gap-3 p-10 border border-gray-400 rounded-md  max-w-sm mx-auto">
         <h1 className="text-2xl text-bold">Secure your account</h1>
           {formFields.map((value,index)=>(
    
