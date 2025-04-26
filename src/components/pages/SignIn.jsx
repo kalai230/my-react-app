@@ -131,6 +131,9 @@ const navigate = useNavigate()
          <div className="flex flex-col justify-center items-center gap-1.5">
           <p className="text-[#fc4c01]">Don't have an account?</p>
           <Link  className="text-[#fc4c01] underline" to={ROUTE_PATH.SIGNUP}>Sign up</Link>
+          <Link  className="text-[#fc4c01] underline" to={ROUTE_PATH.MODAL}>Go back</Link>
+
+
          </div>
         </div>
       </>
