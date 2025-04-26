@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-     "json-server": "json-server --watch db.json --port 5000"
+    "json-server": "json-server --watch db.json --port 5000"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -17,7 +17,6 @@
     "@mui/icons-material": "^7.0.2",
     "@mui/material": "^7.0.2",
     "emailjs-com": "^3.2.0",
-    "firebase": "^11.6.0",
     "formik": "^2.4.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
